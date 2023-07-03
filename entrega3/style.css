@@ -1,0 +1,44 @@
+body {
+  background-color: #edf7ff;
+  font-size: 25pt;
+}
+
+h1 {
+  font-size: 88pt;
+  margin-bottom: auto;
+}
+
+h1,
+h2,
+.epigraph {
+  color: #0a2ff1;
+}
+
+.epigraph {
+  font-size: 39pt;
+}
+
+p,
+li {
+  color: #04146c;
+}
+
+.epigraph,
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h2 {
+  font-size: 36pt;
+}
+
+h1,
+h2,
+footer {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+footer {
+  font-size: 149pt;
+  color: #8a9af1;
+}
