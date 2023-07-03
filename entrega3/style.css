@@ -5,7 +5,7 @@ body {
 
 h1 {
   font-size: 88pt;
-  margin-bottom: auto;
+  height: 150px;
 }
 
 h1,
@@ -16,6 +16,7 @@ h2,
 
 .epigraph {
   font-size: 39pt;
+  padding-bottom: 800px;
 }
 
 p,
@@ -25,7 +26,7 @@ li {
 
 .epigraph,
 p {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "Asap", sans-serif;
 }
 
 h2 {
@@ -35,10 +36,22 @@ h2 {
 h1,
 h2,
 footer {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "MuseoModerno", cursive;
+  margin-bottom: 0;
 }
 
 footer {
   font-size: 149pt;
   color: #8a9af1;
+}
+
+
+li,
+footer {
+  font-weight: bold;
+}
+
+div {
+  padding-left: 130px;
+  width: 870px;
 }
