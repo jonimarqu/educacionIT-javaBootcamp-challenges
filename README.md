@@ -1,2 +1,1 @@
-Ejercicio 1: Crear el repositorio, este README.md y realizar el commit inicial.
-Ejercicio 2: Borrar este README.md y realizar un nuevo commit.
+Desafio 2, ejercicio 1: Clonar el repositorio en otra carpeta, realizar algun cambio y realizar un commit.
