@@ -1,11 +1,26 @@
-#img2 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+* {
+  color: #0a2ff1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 23pt;
 }
 
-#img1 {
-  position: absolute;
-  z-index: 1;
+body {
+  max-width: 770px;
+}
+
+#img {
+  background-image: url('./fondo.JPG');
+  background-size: contain;
+  width: 410px;
+}
+
+h1 {
+  font-size: 59pt;
+  font-weight: 700;
+}
+
+h1 span {
+  background-color: #3ffff3;
+  font: inherit;
 }
