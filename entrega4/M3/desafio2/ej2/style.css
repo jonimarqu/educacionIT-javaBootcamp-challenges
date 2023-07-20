@@ -1,0 +1,67 @@
+:root {
+  --blue: #0a2ff1;
+  --robotoslab: "Roboto Slab", serif;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  border: 1px solid #c8c8cd;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+header img {
+  width: 100%;
+}
+
+main {
+  width: 80%;
+  padding: 10px;
+  margin: auto;
+}
+
+p,
+h3 {
+  font-size: 19pt;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  width: 100%;
+  height: 30px;
+  background-color: #15163d;
+  margin-top: 50px;
+}
+
+h1 {
+  font-family: var(--robotoslab);
+  font-size: 44pt;
+  margin-left: 100px;
+}
+
+h1,
+h3 {
+  color: var(--blue);
+}
+
+button {
+  background-color: var(--blue);
+  color: white;
+  font-size: 20pt;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 10px;
+}
