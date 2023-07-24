@@ -3,11 +3,11 @@
 }
 
 body {
-  background-image: url('./recursos/M4-desafio1-fondo.png');
+  background-image: url('./resources/M4-desafio1-fondo.png');
 }
 
 .container {
-  background-image: url('./recursos/M4-desafio1-fondo-form.png');
+  background-image: url('./resources/M4-desafio1-fondo-form.png');
   width: 50%;
   margin: auto;
   padding: 30px 100px;
