@@ -1,0 +1,50 @@
+* {
+  font-family: "Mulish", sans-serif;
+  font-size: 14pt;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+.container * {
+  display: block;
+  margin: 10px auto;
+}
+
+span {
+  font-size: 18pt;
+  font-weight: 700;
+  text-align: center;
+  color: #04146c;
+}
+
+button {
+  font-size: 15pt;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: #0a2ff1;
+  width: 100%;
+  height: 45px;
+}
+
+form {
+  color: #414166;
+  padding: 0px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+  height: 45px;
+}
+
+a {
+  padding: 5px;
+  text-align: center;
+  color: #0a2ff1;
+  text-decoration: none;
+}
