@@ -11,9 +11,6 @@ body {
   border: 1px solid #04146c;
 }
 
-.container {
-}
-
 header {
   color: white;
   background-color: #04146c;
@@ -42,7 +39,7 @@ img {
 .caption {
   background-color: #edf7ff;
   font-size: 18pt;
-  padding: 0 calc((100% - 600px)/2);
+  padding: 0 calc((100% - 600px) / 2);
   margin: 15px 0 40px;
   width: 600px;
 }
