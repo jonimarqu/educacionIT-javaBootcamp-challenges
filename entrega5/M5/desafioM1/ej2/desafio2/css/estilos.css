@@ -1,0 +1,80 @@
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  color: #0a2ff1;
+  font-size: 3.8rem;
+  text-align: start;
+  margin-left: 5%;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #15163d;
+  font-weight: 400;
+  text-align: center;
+  bottom: 0.3rem;
+  position: absolute;
+  color: white;
+  right: 0;
+  left: 0;
+  bottom: 2.5rem;
+}
+
+p {
+  color: white;
+  font-size: 1.4rem;
+  position: absolute;
+  bottom: 0.8rem;
+  text-align: center;
+  right: 0;
+  left: 0;
+  bottom: 1rem;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card {
+  width: 90%;
+  margin: 1rem auto;
+  position: relative;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  h1 {
+    max-width: 100%;
+    font-size: 5rem;
+  }
+
+  .card {
+    width: 45%;
+  }
+}
+
+@media screen and (min-width: 993px) {
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  .card {
+    width: 24%;
+  }
+}
