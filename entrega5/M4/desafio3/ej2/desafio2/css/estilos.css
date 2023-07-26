@@ -1,0 +1,50 @@
+* {
+  font-family: "Dongle", sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  padding: 1rem;
+}
+
+.card {
+  margin: 10px 0;
+  width: 60%;
+  animation-name: showsUp;
+  visibility: hidden;
+}
+
+@keyframes showUp {
+  from {
+    transform: translateX(100%);
+    visibility: visible;
+  }
+  to {
+    transform: translateX(0%);
+    visibility: visible;
+  }
+}
+
+#c1 {
+  background-color: orange;
+  animation: 1s linear 0s 1 showUp forwards;
+}
+
+#c2 {
+  background-color: palegoldenrod;
+  animation: 1s linear 1s 1 showUp forwards;
+}
+
+#c3 {
+  background-color: pink;
+  animation: 1s linear 2s 1 showUp forwards;
+}
