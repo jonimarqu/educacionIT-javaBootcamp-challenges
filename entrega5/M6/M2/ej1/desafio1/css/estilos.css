@@ -1,0 +1,50 @@
+* {
+  font-family: "Mulish", sans-serif;
+  color: #04146c;
+}
+
+:root {
+  --font-color: #04146c;
+  --blue: #0a2ff1;
+}
+
+.card-title {
+  color: var(--blue);
+  font-size: 30pt;
+  font-weight: 700;
+}
+
+.card-body h6 {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18pt;
+}
+
+h1 {
+  font-size: 49pt;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  margin-top: 0 !important;
+}
+
+.card-img-top {
+  width: 60%;
+}
+
+.btn,
+.btn:hover,
+.btn-active {
+  color: var(--font-color) !important;
+  border-color: var(--blue) !important;
+  font-size: 18pt;
+  border-radius: 0;
+}
