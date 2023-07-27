@@ -1,0 +1,25 @@
+* {
+  font-family: "Mulish", sans-serif;
+  color: #04146c;
+}
+
+:root {
+  --blue: #0a2ff1;
+}
+
+strong {
+  color: var(--blue);
+}
+
+h1 {
+  font-size: 37pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 18pt;
+}
+
+.right img {
+  width: 100%;
+}
