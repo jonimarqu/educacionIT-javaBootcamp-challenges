@@ -1,0 +1,37 @@
+* {
+  font-family: "Mulish", sans-serif;
+  color: var(--font-color);
+}
+
+:root {
+  --font-color: #04146c;
+  --btn-bg: #5974ff;
+  --border-color: #8a9af1;
+}
+
+.form-label {
+  font-size: 18pt;
+}
+
+.form-check-label {
+  font-size: 18pt;
+}
+
+.btn-primary {
+  background-color: var(--btn-bg) !important;
+}
+
+.btn {
+  width: 150px;
+  height: 50px;
+  font-size: 18pt;
+}
+
+.form-control {
+  border-color: var(--border-color);
+}
+
+.form-text {
+  font-size: 13pt;
+  color: var(--font-color);
+}
