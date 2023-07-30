@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "coolvetica";
+  src: 
+    local("coolvetica"),
+    url('../resources/Ejercicio1/Recursos/coolvetica\ rg.otf') format(opentype),
+    url('https://www.dafont.com/es/coolvetica.font') format(opentype);
+}
+
+@font-face {
+  font-family: "roboto";
+  src:
+    local("roboto"),
+    url('../resources/Ejercicio1/Recursos/Roboto-Light.ttf') format(opentype),
+    url('https://fonts.google.com/share?selection.family=Roboto:wght@300') format(opentype);
+}
+
+* {
+  font-family: roboto, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  color: #04146c;
+}
+
+h1 {
+  font-family: coolvetica, sans-serif;
+  font-weight: 400;
+  color: #0a2ff1;
+  font-size: 90pt;
+}
+
+p {
+  font-weight: 300;
+  font-size: 30pt;
+}
+
+.btns button {
+  font-size: 30pt;
+  border: 3px solid #0a2ff1;
+  width: 30vw;
+  min-width: 400px;
+  display: block;
+}
+
+#btn1 {
+  background-color: #0a2ff1;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+#btn2 {
+  background-color: white;
+}
