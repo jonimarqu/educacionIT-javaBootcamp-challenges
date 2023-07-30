@@ -1,21 +1,15 @@
-@font-face {
-  font-family: "roboto";
-  src:
-    local("roboto"),
-    url('../resources/Ejercicio1/Recursos/Roboto-Light.ttf') format(opentype),
-    url('https://fonts.google.com/share?selection.family=Roboto:wght@300;400;700') format(opentype);
-}
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
 
 * {
   color: #04146c;
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
   display: flex;
 }
 
-body>div {
+body > div {
   display: inline-block;
   width: 30%;
   margin: 0 auto;
