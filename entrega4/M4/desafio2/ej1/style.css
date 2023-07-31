@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: #eff2ff;
+  width: 20%;
+  padding: 1em;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+p {
+  font-size: 24px;
+}
+
+img {
+  width: 25%;
+}
+
+#apple {
+  width: 18%;
+}
