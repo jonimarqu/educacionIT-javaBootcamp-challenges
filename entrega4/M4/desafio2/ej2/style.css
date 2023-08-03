@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;900&display=swap');
+
+:root {
+  --azul-claro: #0a2ff1;
+  --azul-oscuro: #04146c;
+}
+
+* {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  padding: 2rem;
+}
+
+h2 {
+  font-size: 30pt;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 60pt;
+  font-weight: 900;
+  margin-block: 3rem;
+}
+
+p {
+  font-size: 20pt;
+  color: var(--azul-oscuro);
+  margin-block: 3rem;
+}
+
+h1,
+h2 {
+  color: var(--azul-claro);
+}
+
+button {
+  font-size: 22pt;
+  font-weight: 700;
+  color: white;
+  background-color: var(--azul-claro);
+  width: 400px;
+  height: 70px;
+  border: none;
+}
