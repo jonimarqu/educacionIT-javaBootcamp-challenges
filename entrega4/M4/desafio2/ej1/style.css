@@ -2,8 +2,7 @@
   font-family: "coolvetica";
   src:
     local("coolvetica"),
-    url("../Recursos/Ejercicio1/Recursos/coolvetica\ rg\ \(2\).otf") format(opentype),
-    url("https://www.dafont.com/es/coolvetica.font") format(opentype);
+    url("../Recursos/Ejercicio1/Recursos/coolvetica-rg-\(2\).otf") format(opentype)
 }
 
 * {
@@ -21,6 +20,11 @@ main {
   background-color: #eff2ff;
   width: 20%;
   padding: 1em;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 h3 {
@@ -30,6 +34,8 @@ h3 {
 
 h1 {
   font-size: 120px;
+  font-weight: 400;
+  margin-bottom: 2rem;
 }
 
 p {
