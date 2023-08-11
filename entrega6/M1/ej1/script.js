@@ -1,14 +1,39 @@
-let precioVenta = 0;
-do {
-  precioVenta = Number(prompt('Ingrese el Precio de Venta:'));
-  if (!(precioVenta > 0)) {
-    alert('El Precio de Venta debe ser un numero mayor a 0.')
-  }
-} while (!(precioVenta > 0));
+(() => {
+  let precioVenta = 0;
+  do {
+    precioVenta = prompt("Ingrese el Precio de Venta:");
+    if (precioVenta === null) {
+      alert("Exiting");
+      return;
+    }
+    if (!(precioVenta > 0)) {
+      alert("El Precio de Venta debe ser un numero mayor a 0.");
+    }
+  } while (!(precioVenta > 0));
 
-let costosFijos = 0;
-costosFijosNumber(prompt('Ingrese el monto de Costos Fijos:'));
+  let costoFijo = 0;
+  do {
+    costoFijo = prompt("Ingrese el monto de Costo Fijo:");
+    if (costoFijo === null) {
+      alert("Exiting");
+      return;
+    }
+    if (!(costoFijo > 0)) {
+      alert("El Costo Fijo debe ser un numero mayor a 0.");
+    }
+  } while (!(costoFijo > 0));
 
-let costosVariables = Number(prompt('Ingrese el monto de Costos Variables:'));
+  let costoVariable = 0;
+  do {
+    costoVariable = prompt("Ingrese el monto de Costo Variable:");
+    if (costoVariable === null) {
+      alert("Exiting");
+      return;
+    }
+    if (!(costoVariable > 0)) {
+      alert("El Costo Fijo debe ser un numero mayor a 0.");
+    }
+  } while (!(costoVariable > 0));
 
-alert('El Punto de quilibrio es: ' + (costosFijos / (precioVenta-costosVariables)));
+  alert("El Punto de quilibrio es: " + costoFijo / (precioVenta - costoVariable));
+})();
