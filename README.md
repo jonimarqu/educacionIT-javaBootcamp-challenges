@@ -1,1 +1,1 @@
-Desafio 2, ejercicio 1: Clonar el repositorio en otra carpeta, realizar algun cambio y realizar un commit.
+En este repo se encuentran las entregas realizadas para el Java Bootcamp de EducacionIT.
